@@ -18,5 +18,6 @@ Depends:
 	methods
 Imports:
 	dplyr,
-	text2vec
+	text2vec,
+	pcaPP
 
