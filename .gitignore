@@ -1,6 +1,3 @@
-# Ignore DS
-**/.DS_Store
-
 # History files
 .Rhistory
 .Rapp.history
