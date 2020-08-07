@@ -1,0 +1,22 @@
+Package: weeval
+Title: Compare Word Embedding Models
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Pedro",
+           family = "Rodriguez",
+           role = c("aut", "cre"),
+           email = "pedro.rodriguezsosa@google.com",
+           comment = c(ORCID = "0000-0003-4762-4550"))
+Description: includes functions to replicate Rodriguez & Spirling (2021).
+License: `use_mit_license()`
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends:
+	R (>= 3.6.3),
+	methods
+Imports:
+	dplyr,
+	text2vec
+
