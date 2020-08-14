@@ -3,6 +3,7 @@
 #' @param cue cue word for which nearest neighbors are required
 #' @param sims matrix of similariteis (with cues as rownames)
 #' @param N number of nearest neighbors to return
+#' @param drop_cue drop nearest neighbor in top N count
 #' @return a character vector of nearest neighbors to cue word
 #'
 #' @note cue is always the nearest neighbor hence can request to drop
